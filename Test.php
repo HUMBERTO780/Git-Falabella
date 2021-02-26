@@ -1,7 +1,7 @@
 <?php
  
 use PHPUnit\Framework\TestCase;
-include ('falabella.php');
+include ('Main/falabella.php');
 final class Test extends TestCase{
 
 
@@ -11,7 +11,7 @@ final class Test extends TestCase{
 	$this-> assertEquals(
 
 	'Falabella',
-	imprimir(3)
+	printit::print0(3)
 	);
 
 	}
